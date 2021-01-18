@@ -6,6 +6,11 @@ def my_collect(array)
 end
 end
 
+array.collect (|letter| letter + y)
+end
+letter
+end
+
 
 
 
