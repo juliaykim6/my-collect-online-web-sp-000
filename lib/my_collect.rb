@@ -1,6 +1,6 @@
 def my_collect(array)
   index = 0
-  new_collection= []
+  new_collection = []
   while index < array.length
     new_collection << yield(array[index])
 
