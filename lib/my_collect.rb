@@ -8,7 +8,7 @@ array
 end
 
 my_collect(languages) do |language|
-  puts language
+  puts array[i]
 end
 end
 
