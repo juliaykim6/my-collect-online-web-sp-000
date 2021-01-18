@@ -7,9 +7,7 @@ end
 array
 end
 
-my_collect(languages) do |language|
-  puts array[i]
-end
+
 
 
 
