@@ -1,11 +1,8 @@
 def my_collect(array)
-  i = 0
-  new_collection = []
-  while array.length > 0
+  empty_array = []
+  counter = 0
     my_collect(empty_array) do |i|
       counter += 1
-  end
-new_collection
 end
 
 
