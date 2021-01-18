@@ -7,10 +7,9 @@ end
 array
 end
 
-  #array.collect (|letter| letter + y)
-  #end
-  #letter
-  #end
+my_collect(languages) do |language|
+  puts language
+end
 
 
 
