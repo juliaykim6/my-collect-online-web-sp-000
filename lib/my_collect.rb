@@ -4,7 +4,7 @@ def my_collect(array)
     my_collect(empty_array) do |i|
       counter += 1
   end
-
+new_collection
 end
 
 
