@@ -2,6 +2,7 @@ def my_collect(array)
   my_collect(array) do |name|
     array (|name| name)
 end
+array
 end
 
   #array.collect (|letter| letter + y)
