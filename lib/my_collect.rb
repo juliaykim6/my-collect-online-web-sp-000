@@ -1,7 +1,7 @@
 def my_collect(array)
-  collection = []
-  my_collect(array) do |name|
-    array (|name|
+  while array.length > 1
+    yield (array[i])
+    i += 1
 end
 array
 end
