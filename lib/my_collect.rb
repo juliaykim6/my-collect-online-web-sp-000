@@ -1,14 +1,18 @@
 def my_collect(array)
-  i = 0
+  index = 0
   new_array = []
-  while array.length > 1
-    new_array << yield (array[i])
-    i += 1
+  while index < array.length
+    new_collection << yield(array[index])
+
+    index += 1
 end
-new_array
+new_collection
 end
 
 
+#my_collect(array) do |name|
+#  name.split(" ").first
+#end
 
 
 
